@@ -1,0 +1,8 @@
+2020-09-24 14:50:06,291 ERROR 10468 nodejs.ServerNoResponseError: server 127.0.0.1:50541 no response in 40000ms, maybe the socket is end on the other side. (address: 127.0.0.1:50541)
+    at Timeout._onTimeout (E:\ThreeCN\web\huaqing\react\Demo\server\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+name: "ServerNoResponseError"
+pid: 10468
+hostname: 96ZSCWBEIJVPUXL
+
