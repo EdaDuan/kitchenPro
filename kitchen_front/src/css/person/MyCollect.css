@@ -1,0 +1,71 @@
+
+
+#mycollect .foodscontent{
+  display: flex;
+  justify-content: space-between;
+}
+
+#mycollect .foodscontent .advertisement{
+  width: 300px;
+  height: 500px;
+  border: 1px solid gray;
+  background:#ccc url("../../images/advertisement.png") no-repeat;
+  background-size: cover;
+
+}
+
+
+#mycollect .foodsitem{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#mycollect .foodsitem .foodsimg{
+  overflow: hidden;
+}
+
+#mycollect .foodsitem .foodsimg img{
+  width: 400px;
+  height: 200px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+#mycollect .foodsitem .foodsimg img:hover{
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+
+#mycollect .foodsitem .foodsmsg{
+  cursor: default;
+  width: 400px;
+  height: 200px;
+  padding-left: 20px;
+  background-color: rgba(154, 154, 154, 0.248);
+}
+#mycollect .foodsitem .foodsmsg .p1{
+  margin-top: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#mycollect .foodsitem .foodsmsg .p2{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#mycollect .foodsmsg .remove{
+  border: none;
+  cursor: pointer;
+}
+#mycollect .foodsmsg .remove:hover{
+  font-weight: 600;
+}

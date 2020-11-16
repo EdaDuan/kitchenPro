@@ -1,0 +1,22 @@
+.showCultur {
+  margin-top: 80px;
+  width: 1246px;
+  min-width: 1246px;
+  min-height: 400px;
+  height: 88vh;
+  margin: 0 auto;
+  
+  /* background: red; */
+} 
+
+.showCultur .list-item {
+  margin: 5px 20px 10px;
+  width: 21%;
+  position: relative;
+  background-color: lightcyan;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}

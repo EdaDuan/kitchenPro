@@ -1,0 +1,106 @@
+/* make信息部分 */
+.food-msg-box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.make-title {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* 菜品名输入框 */
+.foods-name {
+  width: 400px;
+  height: 40px;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.make-cover {
+  width: 400px;
+  height: 400px;
+  background: url("../../images/choose.png") no-repeat;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.coverfile {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.foods-des textarea {
+  width: 400px;
+	height: 80px;
+	font-size: 20px;
+  background-color: #e6e1dc;
+  outline: none;
+  padding: 10px;
+}
+
+.foods-type {
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+
+
+/* step步骤部分 */
+#foods-step .step-box{
+	display: flex;
+	align-items: flex-start;
+	margin: 0 0 30px 0;
+}
+
+#foods-step .step-box textarea{
+	outline: none;
+	width: 200px;
+	height: 200px;
+	margin-right: 30px;
+}
+.step-img-box{
+	width: 300px;
+	height: 300px;
+	background-color: #ccc;
+	position: relative;
+}
+.step-img-box img{
+	width: 300px;
+	height: 300px;
+	background: url("../../images/choose.png") no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.step-img-box .stepfile{
+	opacity: 0;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#foods-step .add-step{
+	width: 200px;
+}
+
+/* 提交按钮 */
+
+#makefoods .commit-btn{
+  margin: 50px 120px;
+  font-size: 20px;
+  width: 400px;
+  height: 50px;
+}

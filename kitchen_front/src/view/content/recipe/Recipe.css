@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    padding: 20px 0 30px;
+}
+
+
+/* .ant-menu.ant-menu-light.ant-menu-root.ant-menu-horizontal {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover {
+    color: #D8316C;
+    border-bottom: 2px solid #D8316C;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected {
+    color: #D8316C;
+    border-bottom: 2px solid #D8316C;
+} */
+
+.space {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #ccc;
+    border-radius: 2px;
+    margin: 40px 0 0 0;
+}
+
+#contain1 h1 {
+    position: relative;
+    /*字体大小*/
+    font-size: 50px;
+    /*字体底色*/
+    color: #ccc;
+}
+
+#contain1 h1::before {
+    content: attr(data-title);
+    position: absolute;
+    left: 0;
+    top: 0;
+    clip-path: circle(50px at 0% 50%);
+    /*字体上层色设置：提供两种途径*/
+    /*way1：uselinear-gradient*/
+    /*background-image: linear-gradient(45deg,red,yellow,green,blue);*/
+    /*way2:useimage*/
+    background-image:url("http://pic.soutu123.com/back_pic/04/27/04/42583ac9065d21d.jpg%21/fw/700/quality/90/unsharp/true/compress/true");
+    background-size: 100%;
+    background-position: center center;
+    -webkit-background-clip: text;
+    color: transparent;
+    /*动画设置*/
+    animation: spotlight 5s infinite;
+    -webkit-animation: spotlight 5s infinite;
+}
+
+@keyframes spotlight {
+    0% {
+        clip-path: circle(50px at 0% 50%);
+    }
+    50% {
+        clip-path: circle(50px at 100% 50%);
+    }
+    100% {
+        clip-path: circle(50px at 0% 50%);
+    }
+}
+
+.banner {
+    height: 200px;
+    background-image: url('https://app-file.beitaichufang.com/img/310636AF348FC3F27D7F7C2040807A97/20191008/rYnKJFSKWR.jpg?x-oss-process=image/crop,x_9,y_9,w_2820,h_1880');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.conBox {
+    margin-right: -17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.itemBox {
+    width: 227px;
+    height: 210px;
+    margin-bottom: 30px;
+    margin-right: 17px;
+}
+
+.item-img {
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+
+.item-img:hover img {
+    transform: scale(1.2);
+}
+
+.item-img img {
+    width: 100%;
+    height: 100%;
+    transition: all .6s;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 17px;
+    margin: 6px 0 2px;
+}
+
+.item-intro {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+}

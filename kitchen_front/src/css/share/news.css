@@ -1,0 +1,126 @@
+.news{
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	height: auto;
+	width: 1246px;
+	padding: 50px 0;
+}
+
+.contanier{
+	width: 450px;
+	height: auto;
+	margin-left: 100px;
+	position: relative;
+}
+
+.contanier p{
+	font-size: 16px;
+}
+
+.box{
+	display: flex;
+	justify-content: space-between;
+	width: 220px;
+	margin-bottom: 15px;
+}
+
+.headbox{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.headimg{
+	width: 50px;
+	height: 50px;
+}
+
+.tips{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.tips p{
+	margin: 0;
+	font-size: 20px;
+}
+
+.omit{
+	width: 50px;
+	border: 1px solid #bbb;
+	text-align: center;
+	border-radius: 3px;
+	position: absolute;
+	right: -15px;
+	top: 30px;
+}
+
+.showimg{
+	/* 做完点赞和评论记得修改 */
+	width: 450px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.img1{
+	width: 450px;
+	height: 450px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.img2{
+	width: 225px;
+	height: 225px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.img3{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.tools{
+	display: flex;
+	width: 450px;
+	display: flex;
+	font-size: 16px;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.comcontent{
+	width: 450px;
+	margin: 10px 0;
+}
+
+.comment{
+	width: 280px;
+	height: 28px;
+	outline: none;
+	box-sizing: border-box;
+	padding: 5px 5px;
+	margin-left: 10px;
+}
+
+.release{
+	width: 80px;
+	height: 29px;
+	background-color: #f44336;
+	border: none;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+	margin-left: 20px;
+	border-radius: 3px;
+}

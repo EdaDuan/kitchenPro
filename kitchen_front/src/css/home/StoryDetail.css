@@ -1,0 +1,58 @@
+.storyDetail {
+  position: relative;
+  margin-top: 80px;
+  width: 1246px;
+  min-width: 1246px;
+  min-height: 400px;
+  /* height: 88vh; */
+  margin: 0 auto;
+  /* background: red; */
+}
+
+.storyDetail .img {
+  text-align: center;
+}
+
+.detailTitle {
+  margin-left: 10%;
+  padding: 20px;
+  color: #d8316c;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.detailTitle span {
+  color: #000;
+}
+
+.person {
+  height: 150px;
+  width: 600px;
+  padding-top: 30px;
+  margin: 0 auto;
+  /* background: orange; */
+}
+
+.header {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 30px;
+  border: 1px solid #a72d10;
+}
+
+.showPro {
+  width: 800px;
+  /* background: yellow; */
+  margin: 0 auto;
+}
+
+.showPro img {
+  width: 800px;
+  height: 800px;
+}
+
+.showPro p {
+  line-height: 50px;
+}

@@ -1,0 +1,10 @@
+/* 导入初始化样式表 */
+@import url('./normalize.css');
+
+body {
+  /* background-color: aquamarine; */
+}
+
+.site-back-top-basic {
+  color: rgba(64, 64, 64, 0.6);
+}

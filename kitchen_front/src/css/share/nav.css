@@ -1,0 +1,18 @@
+
+.ant-menu{
+	font-size: 18px;
+}
+
+.ant-menu-horizontal{
+	border-bottom: 2px solid #f0f0f0;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover{
+	color: orangered;
+	border-bottom: 3px solid saddlebrown;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected{
+	color: orangered;
+	border-bottom: 3px solid saddlebrown;
+}

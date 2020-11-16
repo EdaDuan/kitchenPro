@@ -1,0 +1,90 @@
+.about{
+	width: 1000px;
+	height: 700px;
+	margin: 50px auto;
+	position: relative;
+}
+
+.edaduanbox{
+	position: absolute;
+	top: 150px;
+	right: 380px;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.zslinbox{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.sxyangbox{
+	position: absolute;
+	top: 400px;
+	left: 0;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.songyubox{
+	position: absolute;
+	top: 0px;
+	right: 0;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.jarrybox{
+	position: absolute;
+	top: 420px;
+	left: 400px;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.ljlbox{
+	position: absolute;
+	top: 250px;
+	right: 0;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.edaduan{
+	width: 200px;
+}
+
+.zslin{
+	width: 200px;
+}
+
+.sxyang{
+	width: 200px;
+}
+
+.songyu{
+	width: 200px;
+}
+
+.jarry{
+	width: 200px;
+}
+
+.ljl{
+	width: 200px;
+}

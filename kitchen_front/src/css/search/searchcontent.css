@@ -1,0 +1,210 @@
+#search-content {
+  width: 1246px;
+  margin: 0 auto;
+}
+
+/* 热门搜索部分*/
+#search .hot-keyword {
+  padding-top: 20px;
+}
+#search #search-content .hot-keyword > h2 {
+  font-size: 25px;
+  color: gray;
+}
+#search #search-content .hot-keyword > h2::before {
+  content: "|";
+  display: inline-block;
+  color: rgb(229, 74, 68);
+  margin-right: 10px;
+}
+
+.hot-keyword .keyword-box {
+  width: 100%;
+  height: 50px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.hot-keyword .keyword-title {
+  width: 150px;
+  font-weight: 600;
+  color: gray;
+  line-height: 50px;
+}
+
+.hot-keyword .keyword-content {
+  line-height: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.hot-keyword .keyword-content:hover {
+  color: gray;
+}
+
+#search #search-content > h1 {
+  font-size: 25px;
+}
+#search #search-content > h1::before {
+  content: "|";
+  display: inline-block;
+  color: rgb(104, 103, 102);
+  margin-right: 10px;
+}
+
+/* 展示部分 list的样式*/
+#search .show-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#search .list-item {
+  width: 21%;
+  margin: 20px 24px;
+  position: relative;
+  background-color: rgb(220, 224, 224);
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+.list-item .imgbox {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.list-item:hover {
+  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.07);
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+.list-item .imgbox img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.list-item:hover .imgbox img {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.list-item .user-info {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.list-item .user-info img {
+  margin: 0 15px 0 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.list-item .user-info p {
+  cursor: default;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 150px;
+  margin: 0;
+}
+
+.list-item .foods-info {
+  width: 100%;
+  cursor: pointer;
+}
+.list-item .foods-info h3 {
+  margin: 0;
+  padding: 5px 10px 5px 10px;
+  font-weight: 600;
+}
+
+.list-item .foods-info p {
+  font-size: 14px;
+  padding: 0px 15px 10px 10px;
+  color: rgb(103, 101, 101);
+  cursor: default;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0;
+}
+.list-item .mask {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgba(118, 118, 116, 0.186);
+  z-index: 100;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+
+.list-item .imgbox:hover .mask {
+  cursor: pointer;
+  width: 450px;
+  height: 450px;
+}
+.list-item .colection {
+  color: aliceblue;
+  background-color: lightpink;
+  cursor: pointer;
+  padding: 0 10px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  z-index: 999;
+  border-radius: 5px;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  background-color: rgba(245, 55, 55, 0.883);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.list-item .colection:hover {
+  background-color: red;
+}
+.list-item .imgbox:hover .colection {
+  display: block;
+}

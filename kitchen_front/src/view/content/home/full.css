@@ -1,0 +1,12 @@
+.full {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  line-height: 100vh;
+  background-color: magenta;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

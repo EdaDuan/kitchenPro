@@ -1,0 +1,37 @@
+.logintop{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  cursor: pointer;
+}
+.login,.regist{
+  padding-left: 10%;
+  margin-bottom: 10px;
+  width: 30%;
+  height: 36px;
+  box-sizing: border-box;
+}
+/* .regist{
+  width: 30%;
+} */
+.login:hover,.regist:hover{
+  border-bottom: 3px solid #EBCD55;
+
+}
+/* .clearuser{
+  margin-left: 20px;
+} */
+.userhead{
+  margin: 0 10px;
+  display: none;
+}
+.userhead img{
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.loginbox{
+  display: flex;
+  align-items: center;
+}
+

@@ -1,0 +1,24 @@
+.comtips{
+	line-height: 30px;
+}
+
+.comhead{
+	width: 30px;
+	height: 30px;
+	margin-top: -10px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.comments{
+	word-wrap:break-word;
+	display: inline-block;
+	width: 300px;
+	margin: 0 0;
+}
+
+.delbtn{
+	cursor: pointer;
+	color: blue;
+	font-size: 12px;
+}

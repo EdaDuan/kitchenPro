@@ -1,0 +1,54 @@
+#myproduct{
+	width: 1246px;
+	height: auto;
+	margin: 0 auto 50px auto;
+	/* background-color: lightcoral; */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#myproduct .showbox{
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+	margin-right: 42px;
+}
+
+#myproduct .showbox:nth-child(4n){
+	margin-right: 0;
+}
+
+#myproduct .showbox img{
+	width: 280px;
+	height: 180px;
+	 -ms-transition: all 0.8s;
+	 transition: all 0.6s;
+}
+
+#myproduct .proimg{
+	width: 280px;
+	height: 180px;
+	overflow: hidden;
+}
+
+#myproduct .showbox img:hover{
+	 transform: scale(1.2);
+	   -ms-transform: scale(1.2);
+}
+
+#myproduct .productname{
+	font-size: 20px;
+}
+
+#myproduct .prodes{
+	width: 100%;
+}
+
+#myproduct p{
+	margin: 0;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1; /* //需要控制的文本行数 */
+	overflow: hidden;
+}

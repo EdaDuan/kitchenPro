@@ -1,0 +1,59 @@
+#profile .nav{
+	width: 1246px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+
+#profile .user-info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+}
+
+
+#profile .head img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+#profile .user-info p{
+	font-size: 40px;
+	margin: 0;
+	font-weight: 600;
+}
+#profile .btns{
+	height: 50px;
+	background-color:#F5F6F5 ;
+}
+
+#profile .btns .btnitem{
+	margin: 0;
+	padding: 0 20px;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+}
+
+
+#profile .ant-menu-item-selected{
+	background-color: red;
+	color: antiquewhite;
+	border-bottom: 3px solid wheat;
+}
+
+
+/* 显示内容区域 */
+#profile .showbody{
+	width: 1246px;
+	margin: 0 auto;
+}
+
+#makefoods{
+	padding-left: 20%;
+}
+
+
+
